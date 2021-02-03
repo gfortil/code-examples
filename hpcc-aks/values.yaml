@@ -27,7 +27,7 @@ global:
 
   image:
     ## It is recommended to name a specific version rather than latest, for any non-trivial deployment
-    version: community_7.8.12-1
+    version: community_7.10.0-rc2
     root: "hpccsystems"    # change this if you want to pull your images from somewhere other than DockerHub hpccsystems/*
     pullPolicy: IfNotPresent
   
@@ -111,4 +111,3 @@ thor:
     maxActive: 4
   thoragent:
     maxActive: 2
-
